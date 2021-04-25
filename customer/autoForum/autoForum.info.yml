@@ -1,0 +1,5 @@
+name: autoForum
+type: module
+description: 'auto create a forum'
+package: customer
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,5 @@
+name: extraDB
+type: module
+description: 'connection of extra Database'
+package: customer
+core_version_requirement: ^8 || ^9

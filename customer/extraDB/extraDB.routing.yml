@@ -1,0 +1,23 @@
+extraDB.display:
+  path: '/extraDB'
+  defaults:
+    _controller: '\Drupal\extraDB\Controller\ExtraDBController::display'
+    _title: 'Display User Email'
+  requirements:
+    _permission: 'access content'
+
+extraDB.twigdisplay:
+  path: '/twigextraDB'
+  defaults:
+    _controller: '\Drupal\extraDB\Controller\ExtraDBController::twigdisplay'
+    _title: 'Display User Email By Twig'
+  requirements:
+    _permission: 'access content'
+
+extraDB.DBdisplay:
+  path: '/connectDB'
+  defaults:
+    _controller: '\Drupal\extraDB\Controller\ExtraDBController::connectDB'
+    _title: 'Display User Email By Twig'
+  requirements:
+    _permission: 'access content'
