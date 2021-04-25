@@ -1,0 +1,12 @@
+forumConfig.newPage:
+  path: '/newPage'
+  defaults:
+    _controller: '\Drupal\forumConfig\Controller\CreatePageController::newPage'
+    #_controller: '\Drupal\forumConfig\Controller\CreatePageController::createUsers'
+    #_controller: '\Drupal\forumConfig\Controller\CreatePageController::connectDB'
+    #_controller: '\Drupal\forumConfig\Controller\CreatePageController::content'
+    _title: 'New Page Create By Customer'
+  requirements:
+    _permission: 'access content'
+
+

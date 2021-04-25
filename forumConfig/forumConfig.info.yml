@@ -1,0 +1,6 @@
+name: Forum Config
+description: Config
+package:
+
+type: module
+core_version_requirement: ^8 || ^9
